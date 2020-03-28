@@ -64,6 +64,7 @@ void MainWindow::get_image_from_decoder()
 
 void MainWindow::on_pushButton_2_clicked()
 {
+
      close();
 
 }
