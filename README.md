@@ -4,7 +4,7 @@ A demo application to decode H264 ip cam  images using qt and ffmpeg
 
 # Compiling:
 
-1) clone this repository
+1) Clone this repository
 2) cd IP_Cam_Decoder
 3) mkdir build
 4) cd build
@@ -20,9 +20,9 @@ A demo application to decode H264 ip cam  images using qt and ffmpeg
 
 # How can i use it?
 
-1) put the ip from your ip cam in the box
-2) press connect
-
+1) Put the IP of your IP cam in the text box, like that: rtsp://ip:port
+2) Press connect
+3) To exit, press quit
 # Contact
  *  E-mail: y9luiz@hotmail.com
  *  github: y9luiz
