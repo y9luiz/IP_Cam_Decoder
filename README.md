@@ -1,5 +1,5 @@
 # IP_Cam_Decoder
-A demo application to decode ip cam images using qt and ffmpeg
+A demo application to decode H264 ip cam  images using qt and ffmpeg
 
 
 # Compiling:
@@ -10,3 +10,15 @@ A demo application to decode ip cam images using qt and ffmpeg
 4) cd build
 5) cmake ..
 6) make
+
+
+# Demonstration
+
+![Image description](https://ibb.co/qDd5NyB)
+
+
+
+# How can i use it?
+
+1) put the ip from your ip cam in the box
+2) press connect
