@@ -1,17 +1,8 @@
-/*
- *
- *  Author: Luiz Felipe Maciel Correia
- *  E-mail: y9luiz@hotmail.com
- *  github: y9luiz
- *  facebook: https://www.facebook.com/luizfelipe.macielcorreia.5
- *  linkedin: https://www.linkedin.com/in/luiz-correia-78a346168
- */
-
 #ifndef DECODER_H
 #define DECODER_H
 
-
 #include "decoder_global.h"
+
 #include <QString>
 extern "C"{
 
@@ -20,7 +11,6 @@ extern "C"{
     #include <libswscale/swscale.h>
 
 }
-
 class DECODER_EXPORT Decoder
 {
 public:
@@ -29,6 +19,9 @@ public:
     void init();
     bool get_frame();
     void clear();
+    AVFrame * frame;
+    AVFrame * rgb_frame;
+
 private:
     AVFormatContext * fmt_context;
     AVCodecContext * ccontext;
@@ -43,7 +36,6 @@ private:
     SwsContext * img_convert_ctx;
     AVStream* stream;
 
-    AVFrame * frame;
     void convertYUV2RGB();
 
 };
