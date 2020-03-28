@@ -10,7 +10,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-#include <decoder/decoder.h>
+#include <decoder.h>
 #include <QTimer>
 
 QT_BEGIN_NAMESPACE
