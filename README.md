@@ -14,7 +14,7 @@ A demo application to decode H264 ip cam  images using qt and ffmpeg
 
 # Demonstration
 
-![Example](<a href="https://ibb.co/qDd5NyB"><img src="https://i.ibb.co/516FrMT/img.jpg" alt="img" border="0"></a>)
+(<a href="https://ibb.co/qDd5NyB"><img src="https://i.ibb.co/516FrMT/img.jpg" alt="img" border="0"></a>)
 
 
 
