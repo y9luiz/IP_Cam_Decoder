@@ -2,7 +2,7 @@
 A demo application to decode ip cam images using qt and ffmpeg
 
 
-#Compiling:
+# Compiling:
 
 1) clone this repository
 2) cd IP_Cam_Decoder
