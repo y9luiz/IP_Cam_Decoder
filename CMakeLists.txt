@@ -54,5 +54,5 @@ else()
     mainwindow.ui
   )
 endif()
-
+target_include_directories(decoder_ffmpeg_qt PUBLIC ${DECODER_INCLUDE_DIRS})
 target_link_libraries(decoder_ffmpeg_qt PRIVATE Qt5::Widgets ${DECODER_LIBRARIES})
