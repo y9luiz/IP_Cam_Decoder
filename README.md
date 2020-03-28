@@ -22,3 +22,9 @@ A demo application to decode H264 ip cam  images using qt and ffmpeg
 
 1) put the ip from your ip cam in the box
 2) press connect
+
+# Contact
+ *  E-mail: y9luiz@hotmail.com
+ *  github: y9luiz
+ *  facebook: https://www.facebook.com/luizfelipe.macielcorreia.5
+ *  linkedin: https://www.linkedin.com/in/luiz-correia-78a346168
