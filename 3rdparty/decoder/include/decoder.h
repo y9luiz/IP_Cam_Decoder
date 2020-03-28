@@ -15,6 +15,8 @@ class DECODER_EXPORT Decoder
 {
 public:
     Decoder();
+    ~Decoder();
+
     void set_ip(QString ip);
     void init();
     bool get_frame();
